@@ -1,6 +1,6 @@
 ---
 # Automatically detect OS, checkout the scripts to install the jenkins docker by using 
-# either docker in docker or docker client in docker.
+# either docker in docker or docker client in docker module.
 - hosts: localhost
   user: joechiu
   become: yes
