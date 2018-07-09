@@ -1,6 +1,6 @@
 ---
-# Automatically detect os, check out the scripts to install the jenkins docker by using 
-# either docker in docker or docker client in docker depends on ubuntu or centos
+# Automatically detect OS, checkout the scripts to install the jenkins docker by using 
+# either docker in docker or docker client in docker.
 - hosts: localhost
   user: joechiu
   become: yes
