@@ -1,7 +1,7 @@
 # Ansiable Playbook Docker in Dokcer Automation Installer
 
 ## Synopsis
-This ansible playbook will install a jenkins system either by docker in docker on a Ubuntu box or docker client in docker on a CentOS based on the inventory distribution global variable. 
+This ansible playbook will install a jenkins system either by docker in docker on a Ubuntu box or docker client in docker on a CentOS box based on the inventory distribution global variable. 
 
 ## Linux RHEL 7.5
 * Ansible: 2.7.5
