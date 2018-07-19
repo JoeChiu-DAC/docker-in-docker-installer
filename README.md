@@ -9,6 +9,7 @@ This ansible playbook will install a jenkins system either by docker in docker o
 * Jenkins container: 2.121.1 (openshift/jenkins-2-centos7)
 * Python: 2.7.5
 * Platform: Google Cloud Platform
+* https://github.com/joehmchiu/docker-client-in-docker
 
 ## Linux Ubuntu 16.04
 * Ansible: 2.5.2
@@ -16,6 +17,7 @@ This ansible playbook will install a jenkins system either by docker in docker o
 * Jenkins container: 2.60.3 (jenkins:latest)
 * Python: 2.7.12
 * Platform: VirtualBox
+* https://github.com/joehmchiu/docker-in-docker-ubuntu
 
 ## INSTALL
 cd /tmp && curl -O https://raw.githubusercontent.com/joechiu/docker-in-docker-installer/master/jenkins-in-docker.yml && time ansible-playbook -v jenkins-in-docker.yml
