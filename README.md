@@ -17,6 +17,9 @@ This ansible playbook will install a jenkins system either by docker in docker o
 * Python: 2.7.12
 * Platform: VirtualBox
 
+## INSTALL
+cd /tmp && curl -O https://raw.githubusercontent.com/joechiu/docker-in-docker-installer/master/jenkins-in-docker.yml && time ansible-playbook -v jenkins-in-docker.yml
+
 ## Command
 time sudo ansible-playbook -vvv jenkins-in-docker.yml
 
