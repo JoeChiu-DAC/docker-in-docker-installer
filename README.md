@@ -25,6 +25,9 @@ cd /tmp && curl -O https://raw.githubusercontent.com/joechiu/docker-in-docker-in
 ## Command
 time sudo ansible-playbook -vvv jenkins-in-docker.yml
 
+## REFERENCES
+* https://stackoverflow.com/questions/28089344/docker-what-is-it-and-what-is-the-purpose
+
 ## License
 A short snippet describing the license (MIT, Apache, etc.)
 
